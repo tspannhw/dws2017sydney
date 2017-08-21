@@ -1,0 +1,21 @@
+minifi-toolkit-0.2.0/bin/config.sh transform gpstensorflowpiminifi2.xml config.yml
+scp config.yml pi@IP:/opt/demo/minifi/conf/
+
+ ./gpsrun.sh
+ 
+{"ipaddress": "192.168.1.1", "utc": "2017-08-21T20:00:06.000Z", "epx": "10.301", "epv": "50.6", "serialno": "dfsdfdsf", "altitude": "38.393", "cputemp": 58.0, "eps": "37.16", 
+"longitude": "-74.52923472", "ts": "2017-08-21 20:00:03", "public_ip": "71.11.1.1", "track": "236.6413", "host": "vid5", "mode": "3", "time": "2017-08-21T20:00:06.000Z", 
+"latitude": "40.268194845", "climb": "-0.054", "speed": "0.513", "ept": "0.005"}
+
+2017-08-21 16:20:33,199 INFO [Timer-Driven Process Thread-6] o.apache.nifi.remote.client.PeerSelector New Weighted Distribution of Nodes:
+PeerStatus[hostname=HW13125.local,port=8080,secure=false,flowFileCount=0] will receive 100.0% of data
+2017-08-21 16:20:34,261 INFO [Timer-Driven Process Thread-6] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=MiniFi TensorFlowImage,targets=http://hw13125.local:8080/nifi] 
+Successfully sent [StandardFlowFileRecord[uuid=f84767ec-c627-4b63-9e88-bba1dfb4eb9b,claim=StandardContentClaim 
+[resourceClaim=StandardResourceClaim[id=1503346615133-2, container=default, section=2], offset=2198, length=441],
+offset=0,name=3460526041973,size=441]] (441 bytes) to http://HW13125.local:8080/nifi-api in 117 milliseconds at a rate of 3.65 KB/sec
+
+{"ipaddress": "192.168.1.1", "utc": "2017-08-21T20:17:21.010Z", "epx": "10.301", "epv": "50.6", "serialno": "dfdfdf", 
+"altitude": "43.009", "cputemp": 52.0, "eps": "1.33", "longitude": "-74.529242206", "ts": "2017-08-21 20:16:55", 
+"public_ip": "71.1.1", 
+"track": "190.894", "host": "vid5", "mode": "3", "time": "2017-08-21T20:17:21.010Z", "latitude": "40.268159632", 
+"climb": "0.022", "speed": "0.353", "ept": "0.005"}
