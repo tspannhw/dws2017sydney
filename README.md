@@ -17,4 +17,7 @@ This talk will be based on several HCC articles I have written:
 References:  
 https://community.hortonworks.com/articles/76935/using-sentiment-analysis-and-nlp-tools-with-hdp-25.html https://community.hortonworks.com/articles/52415/processing-social-media-feeds-in-stream-with-apach.htmlhttps://community.hortonworks.com/content/kbentry/77988/ingest-remote-camera-images-from-raspberry-pi-via.html https://community.hortonworks.com/articles/58265/analyzing-images-in-hdf-20-using-tensorflow.html https://community.hortonworks.com/articles/59349/hdf-20-flow-for-ingesting-real-time-tweets-from-st.html https://community.hortonworks.com/articles/64122/incrementally-streaming-rdbms-data-to-your-hadoop.html https://community.hortonworks.com/articles/72420/ingesting-remote-sensor-feeds-into-apache-phoenix.html https://community.hortonworks.com/content/kbentry/55839/reading-sensor-data-from-remote-sensors-on-raspber.html https://community.hortonworks.com/content/kbentry/67309/routing-logs-through-apache-nifi-to-phoenix-hdfs-a.html  
 
+NiFi Java Code for TensorFlow Processor
+https://github.com/tspannhw/nifi-tensorflow-processor
+
 Twitter:  @PaasDev
