@@ -5,6 +5,7 @@ https://dataworkssummit.com/sydney-2017/sessions/real-time-ingesting-and-transfo
 
 In this talk I will show data engineers and architects how to run real-time TensorFlow Inception Image Recognition on images captured by remote sensors and images in tweets. 
 
+![Cat With Tie](https://github.com/tspannhw/dws2017sydney/raw/master/catwithtie.jpg)
 
 In the same flow I will also demonstrate how to apply real-time sentiment analysis and intelligent routing of data to Phoenix, Email and Slack. I will elaborate on a number of different sentiment analysis frameworks available for use within Apache NiFi including Python NLTK, Stanford CoreNLP, Python SpaCy and Python TextBlob. This talk will be a deep dive into how to manage complex dataflow pipelines ingesting from multiple streaming sources including social, public open data feeds, logs, drones, RDBMS and IoT with transformations, deep learning, machine learning and business rules. 
 
