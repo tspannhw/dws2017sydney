@@ -9,6 +9,8 @@ In this talk I will show data engineers and architects how to run real-time Tens
 
 In the same flow I will also demonstrate how to apply real-time sentiment analysis and intelligent routing of data to Phoenix, Email and Slack. I will elaborate on a number of different sentiment analysis frameworks available for use within Apache NiFi including Python NLTK, Stanford CoreNLP, Python SpaCy and Python TextBlob. This talk will be a deep dive into how to manage complex dataflow pipelines ingesting from multiple streaming sources including social, public open data feeds, logs, drones, RDBMS and IoT with transformations, deep learning, machine learning and business rules. 
 
+Beautiful Sydney for DataWorksSummit 2017
+![Sydney](https://github.com/tspannhw/dws2017sydney/raw/master/bridge.jpg)
 
 Data engineers will be shown the power of Apache NiFi for loading diverse sources of data, applying transformations in-stream, routing based on attributes, adding sentiment data to workflows, running deep learning algorithms in stream and storing data into Apache Phoenix on HBase. In this talk, I will walk through each step in the process from ingest of each source, applying filters, performing transformations, converting types, picking and converting fields and finally storing data to Apache Phoenix on HBase. A quick data analysis to show streaming updates to data will be done in Apache Zeppelin running on HDP 2.x. 
 
